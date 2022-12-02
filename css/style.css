@@ -60,14 +60,18 @@ li {
 }
 
 .page-section {
-  margin: 10px;
+  margin: 20px 40px ;
+  padding-right: 10px;
+  border-right: 5px solid black;
 }
 
 .container{
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 200px 1000px 200px;
-  padding: 10px 50px;
+  padding: 20px 100px 20px 10px;
+  position: relative;
+  left: -150px;
 }
 
 .work-grid {
@@ -79,6 +83,10 @@ li {
   "surf surf"
   "led calc"
   "past run";
+}
+
+.about-info {
+  padding: 25px 30px;
 }
 
 
@@ -121,6 +129,10 @@ li {
 
 main h2 {
   padding-left: 20px;
+  display: flex;
+  justify-content: flex-end;
+  font-size:xx-large;
+  
 }
 
 h1,
@@ -134,4 +146,18 @@ h6 {
 
 p {
   margin: 0;
+}
+
+.contact {
+  margin: 40px
+}
+
+.contact-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.contact-list li {
+  color: rgb(79, 35, 161);
 }
