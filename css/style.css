@@ -9,6 +9,114 @@ body {
   line-height: 1.5;
 }
 
+header {
+  padding: 0;
+  width: 100%;
+  display: flex;
+}
+
+h1 {
+  width: 50%;
+}
+
+nav{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+}
+
+li {
+  padding: 10px;
+}
+
+.nav-items {
+  display: flex;
+  padding: 5px;
+
+}
+
+.hero-banner {
+  display: flex;
+  background-image: url(../images/02-hero-bg.jpg);
+  height: 200px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.hero-banner h2 {
+  background-color: aquamarine;
+}
+
+.page-section {
+  margin: 10px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 200px 1000px 200px;
+  padding: 10px 50px;
+}
+
+.work-grid {
+  display: grid;
+  margin: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600px 200px 200px;
+  grid-template-areas: 
+  "surf surf"
+  "led calc"
+  "past run";
+}
+
+.card {
+  border: 2px;
+  border-style: solid rgb(0, 0, 0);
+}
+
+#surf {
+  grid-area: surf;
+  background-image: url(../images/02-portfolio-4.jpg);
+  background-size: cover;
+}
+
+#led {
+  grid-area: led;
+  background-image: url(../images/02-portfolio-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#calc {
+  grid-area: calc;
+  background-image: url(../images/02-portfolio-2.jpg);
+  background-size: cover;
+}
+
+#past {
+  grid-area: past;
+  background-image: url(../images/02-portfolio-3.jpg);
+  background-size: cover;
+}
+
+#run {
+  grid-area: run;
+  background-image: url(../images/02-run-buddy.jpg);
+  background-size: cover;
+}
+
+
+main h2 {
+  padding-left: 20px;
+}
+
 h1,
 h2,
 h3,
