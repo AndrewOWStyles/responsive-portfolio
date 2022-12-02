@@ -1,3 +1,8 @@
+:root {
+  --border: solid rgb(12, 169, 197);
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -76,15 +81,12 @@ li {
   "past run";
 }
 
-.card {
-  border: 2px;
-  border-style: solid rgb(0, 0, 0);
-}
 
 #surf {
   grid-area: surf;
   background-image: url(../images/02-portfolio-4.jpg);
   background-size: cover;
+  border: var(--border);
 }
 
 #led {
@@ -92,24 +94,28 @@ li {
   background-image: url(../images/02-portfolio-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  border: var(--border);
 }
 
 #calc {
   grid-area: calc;
   background-image: url(../images/02-portfolio-2.jpg);
   background-size: cover;
+  border: var(--border);
 }
 
 #past {
   grid-area: past;
   background-image: url(../images/02-portfolio-3.jpg);
   background-size: cover;
+  border: var(--border);
 }
 
 #run {
   grid-area: run;
   background-image: url(../images/02-run-buddy.jpg);
   background-size: cover;
+  border: var(--border);
 }
 
 
