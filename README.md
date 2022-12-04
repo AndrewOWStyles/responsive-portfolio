@@ -1,75 +1,69 @@
-# Unit 2 Challenge: Portfolio
+## Table of contents
 
-## Your Task
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-This week, you'll build a portfolio page, which you can add to as the course progresses. 
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+## Overview
 
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+### The challenge
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+A demo gif was given along with some basic HTML, the task was to create the webpage to the best of our abilities whilst following the acceptance criteria.
+This involved implementing functions such as media queries and using grids and flex-box to create the webpage.
 
-## Acceptance Criteria
+### Screenshot
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+![The completed webpage viewed on desktop](../responsive-portfolio/images/defualt-example.png)
+![The completed webpage on a smaller screen](../responsive-portfolio/images/middle-example.png)
+![The completed webpage on a very small screen](../responsive-portfolio/images/smallest-example.png)
 
-* When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
-* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
-* When viewing the section about your work then the section contains titled images of your applications
-* When presented with the your first application then that application's image should be larger in size than the others
-* When images of the applications are clicked then the user is taken to that deployed application
-* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
+### Links
 
-## Mock-Up
+- Solution URL: https://andrewowstyles.github.io/responsive-portfolio/
+- Live Site URL: https://github.com/AndrewOWStyles/responsive-portfolio
 
-The following animation shows the web application's appearance and functionality:
+## My process
 
-![portfolio demo](./images/01-css-challenge-demo.gif)
+### Built with
 
-Feel free to use your own colors and images.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flex-box
+- CSS Grid
 
-## Grading Requirements
+### What I learned
 
-This challenge is graded based on the following criteria: 
+I now can properly understand how useful grid and flex-box are for making webpage design much easier, i also enjoyed learning about how 
+background images can be used and edited.
 
-### Technical Acceptance Criteria: 40%
+### Continued development
 
-* Satisfies all of the above acceptance criteria.
+I have had difficulty getting my nav links to work for my page so i will be continuing to try and figure out how to get them to work
+I think getting used to how i should use grids and flex-box will be very beneficial in the future. I will possibly use this site as my actual portfolio in the future
+and replace the content as needed.
 
-### Deployment: 32%
+### Useful resources
 
-* Application deployed at live URL.
+- https://developer.mozilla.org/en-US/docs/Web/CSS/:root - i forgot how to do root so this helped a bunch
+- https://linuxhint.com/different-methods-to-darken-background-image-css/ - used this site when i was trying to understand how to darken a background image
 
-* Application loads with no errors.
 
-* Application GitHub URL submitted.
+## Author
+  Your Name
+- Website - https://andrewowstyles.github.io/responsive-portfolio/
+- GitHub - https://github.com/AndrewOWStyles
 
-* GitHub repository contains application code.
 
-### Application Quality: 15%
+## Acknowledgments
 
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Although i did not seek any outside help aside from my personal web searches i would thank the instructors from my course
+The teachings and help i have received from them has been very useful and beneficial for my learning
