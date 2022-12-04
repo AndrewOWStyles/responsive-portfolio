@@ -22,9 +22,9 @@ This involved implementing functions such as media queries and using grids and f
 
 ### Screenshot
 
-![The completed webpage viewed on desktop](../responsive-portfolio/images/defualt-example.png)
-![The completed webpage on a smaller screen](../responsive-portfolio/images/middle-example.png)
-![The completed webpage on a very small screen](../responsive-portfolio/images/smallest-example.png)
+![The completed webpage viewed on desktop](images/defualt-example.png)
+![The completed webpage on a smaller screen](images/middle-example.png)
+![The completed webpage on a very small screen](images/smallest-example.png)
 
 ### Links
 
