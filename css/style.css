@@ -52,10 +52,13 @@ ul {
   flex-direction: row;
 }
 
+
+
 li {
   padding: 0px 20px 0 20px;
-  margin: 0 5px 0 5px;
+  margin: 0px 5px 0px 5px;
   border-bottom: solid 3px rgb(79, 197, 218);
+  height: fit-content;
 }
 
 span {
@@ -64,10 +67,9 @@ span {
 
 .nav-items {
   display: flex;
-  padding: 100px;
+  padding: 0px 100px 0;
   color: rgb(79, 197, 218);
-  
-
+  cursor: pointer;
 }
 
 .hero-banner {
