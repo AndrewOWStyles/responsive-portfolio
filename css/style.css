@@ -60,6 +60,11 @@ li {
   border-bottom: solid 3px rgb(79, 197, 218);
 }
 
+a {
+  color: rgb(79, 197, 218);
+  text-decoration: none;
+}
+
 span {
   font-size: large;
 }
